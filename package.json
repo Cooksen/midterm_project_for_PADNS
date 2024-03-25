@@ -2,7 +2,7 @@
   "name": "my-page",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://cooksen.github.io/midterm_project_for_padns",
+  "homepage": "https://cooksen.github.io/midterm_project_for_PADNS",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
