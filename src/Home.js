@@ -62,7 +62,8 @@ const Home = () => {
 
             <h3 className="name">Sen Chao</h3>
             <p className="job">
-            A bachelor student currently studying in the department of Engineering Science, ECE group at National Taiwan University.
+            A master student in the Department of Electronic Engineering, EECS(Cyber Security Group) at National Taiwan University.<br/><br/>
+            Internet Research Lab: Fucous on 5g/b5g and LEO-SAT communications. i.e. modulation techniques, machine learning applications.
             </p>
             {/* END JOB */}
             <br />
