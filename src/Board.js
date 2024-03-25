@@ -1,9 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-
-// Comments API
-const API_ENDPOINT =
-    "https://student-json-api.lidemy.me/comments?_sort=createdAt&_order=desc";
 
 const Page = styled.div`
   max-width: 800px;
@@ -20,10 +16,7 @@ const Title = styled.h1`
   text-align: center;
 `;
 
-const MessageForm = styled.form`
-  margin-top: 16px;
-  font-size: 18px;
-`;
+
 const MessageLable = styled.div``;
 
 const MessageTextArea = styled.textarea`
@@ -64,16 +57,12 @@ const MessageAuthor = styled.div`
   color: #232323;
 `;
 
-const MessageTime = styled.div``;
 
 const MessageBody = styled.div`
   margin-top: 8px;
 `;
 
-const ErrorMessage = styled.div`
-  margin-top: 16px;
-  color: #db4c3f;
-`;
+
 
 function Message({ author, mes }) {
     return (

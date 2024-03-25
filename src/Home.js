@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
 import React from "react";
-// import Social from "./Social";
-import ExampleDoc from "./assets/SenResume.pdf"
 import styled from "styled-components"  
-import pic from "./assets/senchao.jpg"
 
 function VisitCounter() {
     const [visits, setVisits] = useState(0);
@@ -54,7 +51,7 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(assets/img/logo/senchao.jpg)",
+                backgroundImage: "url(./assets/img/logo/senchao.jpg)",
               }}
             ></div>
             {/* END AVATAR IMAGE */}
